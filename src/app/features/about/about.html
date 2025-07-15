@@ -1,0 +1,28 @@
+<div class="p-6 bg-white rounded-lg shadow-md">
+  <h2 class="text-3xl font-bold text-gray-800 mb-6">Acerca de esta Aplicación</h2>
+  <p class="text-gray-600 mb-4">
+    Esta aplicación de demostración fue creada para ilustrar la integración de <code>ngx-echarts</code> en una aplicación Angular 20 standalone,
+    así como la generación de PDFs utilizando <code>jspdf</code>.
+  </p>
+  <p class="text-gray-600 mb-8">
+    El panel de control muestra datos simulados de citas clínicas, y esta página demuestra la funcionalidad de exportación a PDF.
+  </p>
+
+  <button
+    (click)="generatePdf()"
+    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+  >
+    Generar Reporte PDF
+  </button>
+
+  <div class="mt-8">
+    <h3 class="text-xl font-semibold text-gray-800 mb-4">Tecnologías Utilizadas:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Angular 20 (Standalone Components)</li>
+      <li>ngx-echarts (para visualización de datos)</li>
+      <li>Apache ECharts (motor de gráficos)</li>
+      <li>jsPDF y jspdf-autotable (para generación de PDF)</li>
+      <li>Tailwind CSS (para estilos, simulado con clases básicas)</li>
+    </ul>
+  </div>
+</div>
