@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { CitasChart } from './components/citas-chart/citas-chart';
+import { Login } from './login/login';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [CitasChart],
+  imports: [Login],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css'
 })
